@@ -1,0 +1,11 @@
+{
+  "name": "sociallens-workspace",
+  "version": "1.0.0",
+  "description": "Social Media Content Analyzer (SocialLens) - Fullstack AI Web App",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start": "npm --prefix server start",
+    "build": "npm --prefix client run build"
+  }
+}

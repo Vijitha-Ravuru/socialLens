@@ -1,0 +1,57 @@
+# ===========================
+# SocialLens — .gitignore
+# ===========================
+
+# --- Dependencies (install locally with npm install) ---
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# --- Build Output (generated with npm run build) ---
+client/dist/
+client/.vite/
+
+# --- Environment Files (NEVER commit these — they may contain secrets) ---
+.env
+.env.local
+.env.production
+.env.development
+server/.env
+
+# Keep .env.example — it shows the format without real values
+!server/.env.example
+
+# --- Tesseract OCR Language Data (large binary, auto-downloaded at runtime) ---
+server/eng.traineddata
+server/*.traineddata
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# --- OS Generated Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- Temporary / Generated ---
+*.tmp
+*.temp
+.cache/
