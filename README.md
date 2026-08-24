@@ -1,6 +1,14 @@
-# SocialLens — Social Media Content Analyzer
+## 200-Word Project Approach
+**SocialLens – Social Media Content Analyzer**, is designed to help students, content creators, and social media users evaluate and improve their posts before publishing them. The system accepts PDF files and images containing social media content. It extracts text from PDFs through document parsing and from images using Optical Character Recognition (OCR). The extracted content can then be analyzed for further processing.
 
-A full-stack web application that analyzes social media posts and suggests engagement improvements. Upload a PDF or image containing your post, extract the text, analyze it for engagement metrics, and receive AI-powered recommendations and improved post variations.
+The application evaluates several important content metrics, including readability, hook strength, call-to-action effectiveness, sentiment, hashtag usage, and platform compatibility. It also uses AI to identify the strengths and weaknesses of a post, generate improvement suggestions, and produce enhanced versions of the content.
+
+Users can select a target social media platform and preferred tone so that the analysis and recommendations are tailored to specific publishing requirements. The project follows the workflow: **Upload → Extract → Review → Analyze → Improve → Preview**.
+
+Additional features include loading indicators, error handling, dark and light themes, and an offline fallback option. These features support the overall content analysis process and allow users to examine, refine, and preview their posts before publishing.
+
+## LIVE Demo
+https://sociallens-frontend.onrender.com/
 
 ---
 
