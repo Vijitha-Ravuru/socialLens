@@ -53,7 +53,7 @@ app.use((err, req, res, next) => {
 });
 
 // Start Server
-app.listen(PORT, () => {
-  console.log(`🚀 SocialLens Server running at http://localhost:${PORT}`);
-  console.log(`📡 Endpoints available at http://localhost:${PORT}/api/`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`🚀 SocialLens Server running on port ${PORT}`);
+  console.log(`📡 API endpoints available at /api/`);
 });
