@@ -2,7 +2,7 @@
  * API Client for SocialLens Backend Services
  */
 
-const API_BASE = '/api';
+const API_BASE = 'https://sociallens-1afi.onrender.com/api';
 
 /**
  * Retrieve saved API key from localStorage
