@@ -102,24 +102,18 @@ socialLens-anti/
 │   └── package.json
 │
 ├── server/                         # Node.js + Express backend
-│   ├── src/
-│   │   ├── server.js               # Express app setup, CORS, request logger
-│   │   ├── routes/
-│   │   │   └── analyzeRoutes.js    # REST API routes: /extract /metrics /ai-analyze /improve /vision-analyze
-│   │   └── services/
-│   │       ├── documentService.js  # PDF parsing (pdf-parse) + OCR (Tesseract.js)
-│   │       ├── metricsService.js   # Deterministic: readability, hook, CTA, sentiment, platform fit
-│   │       └── aiService.js        # Gemini AI integration + smart offline heuristic fallback
-│   ├── test_e2e.js                 # End-to-end backend verification script
-│   ├── .env                        # Local environment variables (NOT committed to git)
-│   └── package.json
-│
-├── README.md                       # This file
-├── APPROACH.md                     # 200-word technical approach write-up (assessment deliverable)
-├── GITHUB_READINESS.md             # Pre-submission readiness audit
-├── GITHUB_SETUP.md                 # Beginner-friendly GitHub setup guide
-├── .gitignore                      # Excludes node_modules, .env, dist, and secrets
-└── package.json                    # Root workspace scripts
+    ├── src/
+    │   ├── server.js               # Express app setup, CORS, request logger
+    │   ├── routes/
+    │   │   └── analyzeRoutes.js    # REST API routes: /extract /metrics /ai-analyze /improve /vision-analyze
+    │   └── services/
+    │       ├── documentService.js  # PDF parsing (pdf-parse) + OCR (Tesseract.js)
+    │       ├── metricsService.js   # Deterministic: readability, hook, CTA, sentiment, platform fit
+    │       └── aiService.js        # Gemini AI integration + smart offline heuristic fallback
+    ├── test_e2e.js                 # End-to-end backend verification script
+    ├── .env                        # Local environment variables (NOT committed to git)
+    └── package.json
+
 ```
 
 ---
